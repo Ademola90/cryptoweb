@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+
+                }
+            }
+        }
+    </script>
+
+    <style type="text/tailwindcss">
+        @layer utilities {
+      .content-auto {
+        content-visibility: auto;
+      }
+    }
+  </style>
+</head>
+
+<body class="bg-black">
+    <div style="background-image: url(./assets/Group\ 96.png)" class="bg-no-repeat bg-cover  grid gap-20">
+        <nav class="lg:px-16 md:px-10 px-8 flex justify-between items-center text-white py-5">
+            <div class=" text-[24px] font-bold">
+                Logo Here
+            </div>
+
+            <ul class="lg:flex md:flex hidden items-center gap-10">
+                <li>Buy / Sell</li>
+                <li>Grow</li>
+                <li>Markets</li>
+                <li>Business</li>
+                <li>Support</li>
+            </ul>
+
+            <div class=" lg:flex md:flex hidden">
+                <button class="w-[96px] h-[40px] border-2 border-white rounded-md text-white"> Sign Up</button>
+                <button
+                    class="w-[96px] h-[40px] text-white bg-gradient-to-bl from-[#1BC4FE] via-[#5B7EFE] to-[#9142FE] rounded-md">Sign
+                    In</button>
+            </div>
+        </nav>
+
+        <div class=" grid items-center justify-center lg:px-16 md:px-10 px-8 gap-5">
+            <p class=" text-center lg:w-[780px] text-white lg:text-[85px] md:text-[68px] text-[58px] font-bold">We make
+                crypto clear and simple
+            </p>
+            <div class="grid justify-center items-center">
+                <button
+                    class="w-[156px] h-[56px] text-white bg-gradient-to-bl from-[#1BC4FE] via-[#5B7EFE] to-[#9142FE] rounded-md">
+                    Get Started
+                </button>
+            </div>
+
+
+        </div>
+
+
+        <!-- map1 -->
+        <div class=" grid justify-center items-center lg:px-16 md:px-10 px-8 pt-32 pb-10">
+            <div class=" grid md:grid-cols-3 lg:grid-cols-3 text-white gap-5 card1 ">
+
+            </div>
+        </div>
+
+    </div>
+
+</body>
+<script src="./crypto.js"></script>
+
+</html>
